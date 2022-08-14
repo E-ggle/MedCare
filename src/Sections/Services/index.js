@@ -298,7 +298,7 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Ambulance"
-          title={<h1>One Click to Call</h1>}
+          title={<h1>One Click to Service</h1>}
           subText={
             <h5>
               In Emergencies Doctor cannot do virtual treatment so we provide an
