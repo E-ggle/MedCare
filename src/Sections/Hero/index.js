@@ -2,12 +2,6 @@
 
 import styled, { keyframes } from "styled-components";
 
-import pinkBlob from "../../assets/blobPink.png";
-import purpleBlob from "../../assets/blob purple.png";
-import whiteBlob from "../../assets/blob white.png";
-import arrow from "../../assets/heart.svg";
-import Mobile from "../../assets/mobile.svg";
-
 const move = keyframes`
 0% { transform: translateY(-5px)  }
     50% { transform: translateY(10px) }
@@ -178,13 +172,28 @@ const HeroSection = () => {
     <HomeSection id="home">
       <Blobs>
         <PinkBlob>
-          <img src={pinkBlob} alt="" width="400" height="400" />{" "}
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/blobPink.png"
+            alt=""
+            width="400"
+            height="400"
+          />{" "}
         </PinkBlob>
         <WhiteBlob>
-          <img src={whiteBlob} alt="" width="400" height="400" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/blob%20white.png"
+            alt=""
+            width="400"
+            height="400"
+          />
         </WhiteBlob>
         <PurpleBlob>
-          <img src={purpleBlob} alt="" width="400" height="400" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/blob%20purple.png"
+            alt=""
+            width="400"
+            height="400"
+          />
         </PurpleBlob>
       </Blobs>
 
@@ -201,11 +210,21 @@ const HeroSection = () => {
           </SubText>
           <CTA>
             Get Started &nbsp;
-            <img src={arrow} alt="cta" width="100" height="100" />
+            <img
+              src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/heart.svg"
+              alt="cta"
+              width="100"
+              height="100"
+            />
           </CTA>
         </Lb>
 
-        <MobileSvg src={Mobile} alt="Mobile Svg" width="400" height="400" />
+        <MobileSvg
+          src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/mobile.svg"
+          alt="Mobile Svg"
+          width="400"
+          height="400"
+        />
       </MainContent>
     </HomeSection>
   );

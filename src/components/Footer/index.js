@@ -1,7 +1,4 @@
 import styled from "styled-components";
-import Twitter from "../../assets/twitter-square-brands.svg";
-import Instagram from "../../assets/instagram-square-brands.svg";
-import Gmail from "../../assets/envelope-open-solid.svg";
 
 const FOOTER = styled.footer`
   padding: 1.2rem calc(2.5rem + 2.5vw);
@@ -50,15 +47,24 @@ const Footer = () => {
       <RightText>
         Reach out to me via 😉
         <a href="https://twitter.com/">
-          <img src={Twitter} alt="Twitter" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/twitter-square-brands.svg"
+            alt="Twitter"
+          />
         </a>
         &nbsp;
         <a href="https://www.instagram.com/">
-          <img src={Instagram} alt="Instagram" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/instagram-square-brands.svg"
+            alt="Instagram"
+          />
         </a>
         &nbsp;
         <a href="mailto:meddevelopers@gmail.com?subject=Email From Your Website">
-          <img src={Gmail} alt="Gmail" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/envelope-open-solid.svg"
+            alt="Gmail"
+          />
         </a>
       </RightText>
     </FOOTER>

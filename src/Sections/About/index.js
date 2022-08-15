@@ -1,6 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import rocket from "../../assets/rocket image.png";
-import hand from "../../assets/hand.svg";
 
 const move = keyframes`
 0% { transform: translateY(-15px)         }
@@ -114,7 +112,10 @@ const About = () => {
   return (
     <AboutSection id="about">
       <Hand>
-        <img src={hand} alt="" />
+        <img
+          src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/hand.svg"
+          alt=""
+        />
       </Hand>
       <Main>
         <div>
@@ -132,7 +133,12 @@ const About = () => {
           </Rocket>
           <AboutText>
             <Human>
-              <img src={rocket} alt="" width="400" height="400" />
+              <img
+                src="https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/rocket%20image.png"
+                alt=""
+                width="400"
+                height="400"
+              />
             </Human>
 
             <Text>

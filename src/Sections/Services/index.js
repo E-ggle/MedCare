@@ -3,10 +3,6 @@ import { useEffect, useRef } from "react";
 import styled from "styled-components";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import telephone from "../../assets/telephone.svg";
-import healthcare from "../../assets/healthcare.svg";
-import Capsule from "../../assets/3dcapsule.png";
-
 import TextBlock from "../../components/TextBlock";
 import SvgBlock from "../../components/SvgBlock";
 
@@ -275,7 +271,12 @@ const Services = () => {
           }
         />
         <OBJ>
-          <img src={Capsule} alt="Tube Object" width="400" height="400" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/3dcapsule.png"
+            alt="Tube Object"
+            width="400"
+            height="400"
+          />
         </OBJ>
         <SvgBlock svg="Support.svg" />
       </Content>
@@ -291,7 +292,12 @@ const Services = () => {
           }
         />
         <OBJ>
-          <img src={healthcare} alt="Cone Object" width="400" height="400" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/healthcare.svg"
+            alt="Cone Object"
+            width="400"
+            height="400"
+          />
         </OBJ>
         <SvgBlock svg="report.svg" />
       </Content>
@@ -307,7 +313,12 @@ const Services = () => {
           }
         />
         <OBJ>
-          <img src={telephone} alt="Cone Object" width="400" height="400" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/telephone.svg"
+            alt="Cone Object"
+            width="400"
+            height="400"
+          />
         </OBJ>
         <SvgBlock svg="ambulance.svg" />
       </Content>
@@ -323,7 +334,12 @@ const Services = () => {
           }
         />
         <OBJ>
-          <img src={Capsule} alt="Capsule Object" width="400" height="400" />
+          <img
+            src="https://www.svgrepo.com/show/285249/robot.svg"
+            alt="Capsule Object"
+            width="400"
+            height="400"
+          />
         </OBJ>
         <SvgBlock svg="Support.svg" />
       </Content>

@@ -1,7 +1,3 @@
-import Facebook from "../../assets/facebook-square-brands.svg";
-import LinkedId from "../../assets/linkedin-brands.svg";
-import Twitter from "../../assets/twitter-square-brands.svg";
-import Instagram from "../../assets/instagram-square-brands.svg";
 import styled from "styled-components";
 
 const ContactSection = styled.section`
@@ -130,16 +126,28 @@ const Contact = () => {
       <Icons>
         <a href="https://www.facebook.com/">
           {" "}
-          <img src={Facebook} alt="Facebook" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/facebook-square-brands.svg"
+            alt="Facebook"
+          />
         </a>
         <a href="https://www.linkedin.com/">
-          <img src={LinkedId} alt="LinkedId" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/linkedin-brands.svg"
+            alt="LinkedId"
+          />
         </a>
         <a href="https://twitter.com/">
-          <img src={Twitter} alt="Twitter" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/twitter-square-brands.svg"
+            alt="Twitter"
+          />
         </a>
         <a href="https://www.instagram.com/">
-          <img src={Instagram} alt="Instagram" />
+          <img
+            src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/instagram-square-brands.svg"
+            alt="Instagram"
+          />
         </a>
       </Icons>
       <Form>

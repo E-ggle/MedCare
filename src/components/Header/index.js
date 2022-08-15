@@ -2,7 +2,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import logo from "../../assets/logo.png";
 
 const Headers = styled.header`
   display: flex;
@@ -250,7 +249,10 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        <img src={logo} alt="MedCare" />
+        <img
+          src="https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/logo.png"
+          alt="MedCare"
+        />
         <h3>MedCare</h3>
       </Logo>
       <Nav>

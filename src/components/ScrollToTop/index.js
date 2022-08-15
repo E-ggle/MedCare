@@ -1,5 +1,3 @@
-import SvgIcon from "../../assets/arrow-up.svg";
-
 import styled from "styled-components";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
@@ -67,7 +65,11 @@ const ScrollToTop = () => {
 
   return (
     <Up onClick={scrollUp}>
-      <img ref={ref} src={SvgIcon} alt="to top" />
+      <img
+        ref={ref}
+        src="https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/arrow-up.svg"
+        alt="to top"
+      />
     </Up>
   );
 };
