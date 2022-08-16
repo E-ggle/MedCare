@@ -287,8 +287,15 @@ const Header = () => {
         fileName: _jsxFileName,
         lineNumber: 254,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h3", {
-        children: "MedCare"
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h3", {
+          children: "MedCare"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 259,
+          columnNumber: 11
+        }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 258,
@@ -305,7 +312,7 @@ const Header = () => {
         children: "Home"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 261,
+        lineNumber: 263,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
         href: "#about",
@@ -313,7 +320,7 @@ const Header = () => {
         children: "About Us"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 264,
+        lineNumber: 266,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
         href: "#services",
@@ -323,53 +330,53 @@ const Header = () => {
             children: "Services"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 269,
+            lineNumber: 271,
             columnNumber: 13
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
             children: "Appointment"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 270,
+            lineNumber: 272,
             columnNumber: 13
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
             children: "Reports"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 271,
+            lineNumber: 273,
             columnNumber: 13
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
             children: "Ambulance"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 272,
+            lineNumber: 274,
             columnNumber: 13
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
             children: "MedCart"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 273,
+            lineNumber: 275,
             columnNumber: 13
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
             children: "Virtual Assistant"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 274,
+            lineNumber: 276,
             columnNumber: 13
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
             children: "Notification"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 275,
+            lineNumber: 277,
             columnNumber: 13
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 268,
+          lineNumber: 270,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 267,
+        lineNumber: 269,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
         href: "#contact",
@@ -378,12 +385,12 @@ const Header = () => {
           children: "Contact Us"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 279,
+          lineNumber: 281,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 278,
+        lineNumber: 280,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         to: "/doctor",
@@ -391,29 +398,29 @@ const Header = () => {
           children: "Sign Up"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 282,
+          lineNumber: 284,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 281,
+        lineNumber: 283,
         columnNumber: 9
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 260,
+      lineNumber: 262,
       columnNumber: 7
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(HamburgerBtn, {
       clicked: click,
       onClick: () => setClick(!click),
       children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("span", {}, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 286,
+        lineNumber: 288,
         columnNumber: 9
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 285,
+      lineNumber: 287,
       columnNumber: 7
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(MobileMenu, {
       clicked: click,
@@ -423,7 +430,7 @@ const Header = () => {
         children: "Home"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 289,
+        lineNumber: 291,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
         href: "#about",
@@ -431,7 +438,7 @@ const Header = () => {
         children: "About Us"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 292,
+        lineNumber: 294,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
         href: "#services",
@@ -439,7 +446,7 @@ const Header = () => {
         children: "Services"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 295,
+        lineNumber: 297,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
         href: "#contact",
@@ -448,12 +455,12 @@ const Header = () => {
           children: "Contact Us"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 299,
+          lineNumber: 301,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 298,
+        lineNumber: 300,
         columnNumber: 9
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         to: "/doctor",
@@ -461,17 +468,17 @@ const Header = () => {
           children: "Sign Up"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 302,
+          lineNumber: 304,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 301,
+        lineNumber: 303,
         columnNumber: 9
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 288,
+      lineNumber: 290,
       columnNumber: 7
     }, undefined)]
   }, void 0, true, {
