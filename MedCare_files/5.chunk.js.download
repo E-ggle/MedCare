@@ -1,0 +1,578 @@
+(this["webpackJsonpmedcare"] = this["webpackJsonpmedcare"] || []).push([[5],{
+
+/***/ "./src/components/Header/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Header/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
+/* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/index.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\components\\Header\\index.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+
+
+
+
+const Headers = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: #4071ed;
+  color: var(--white);
+  position: relative;
+  z-index: 500;
+  @media only Screen and (max-width: 64em) {
+    padding: 0.5rem 3rem;
+  }
+  @media only Screen and (max-width: 40em) {
+    padding: 0.5rem 1.5rem;
+  }
+`;
+_c = Headers;
+const Logo = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].a`
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height: auto;
+  cursor: pointer;
+  img {
+    margin-right: 0.5rem;
+  }
+`;
+_c2 = Logo;
+const Nav = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].nav`
+  width: 30rem;
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s;
+  @media only Screen and (max-width: 48em) {
+    display: none;
+  }
+  a {
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--white);
+    &::after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 0;
+      background: transparent;
+      transition: width 0.5s;
+    }
+    select {
+      width: 120px;
+      border-radius: 3;
+      background-color: #3ede5b;
+      padding: 0.5rem;
+      border-radius: 20px;
+      color: var(--white);
+      font-weight: 600;
+      line-height: inherit;
+      cursor: pointer;
+    }
+    &:not(:last-child):hover::after {
+      width: 100%;
+      background: var(--purple);
+    }
+  }
+`;
+_c3 = Nav;
+const Button = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
+  background-color: #cc47f5;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:focus {
+    transform: scale(0.9);
+  }
+  @media only Screen and (max-width: 40em) {
+    font-size: 1.2rem;
+    &:hover {
+      transform: none;
+    }
+    &:focus {
+      transform: none;
+    }
+  }
+`;
+_c4 = Button;
+const Buttonsign = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
+  background-color: #eb3131;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:focus {
+    transform: scale(0.9);
+  }
+  @media only Screen and (max-width: 40em) {
+    font-size: 1.2rem;
+    &:hover {
+      transform: none;
+    }
+    &:focus {
+      transform: none;
+    }
+  }
+`;
+_c5 = Buttonsign;
+const HamburgerBtn = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
+  display: none;
+  @media only Screen and (max-width: 48em) {
+    display: inline-block;
+  }
+  position: relative;
+  background-color: transparent;
+  width: 2rem;
+  height: 2px;
+  margin-top: 0rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  &::before,
+  &::after {
+    content: "";
+    background-color: var(--white);
+    width: 2rem;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+
+    transition: all 0.3s;
+  }
+  &::before {
+    top: ${props => props.clicked ? "0" : "-0.5rem"};
+    transform: ${props => props.clicked ? "rotate(135deg)" : "rotate(0)"};
+  }
+  &::after {
+    top: ${props => props.clicked ? "0" : "0.5rem"};
+    transform: ${props => props.clicked ? "rotate(-135deg)" : "rotate(0)"};
+  }
+`;
+_c6 = HamburgerBtn;
+const MobileMenu = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].nav`
+  display: none;
+  @media only Screen and (max-width: 48em) {
+    display: flex;
+  }
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  overflow-x: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  opacity: ${props => props.clicked ? "1" : 0};
+  visibility: ${props => props.clicked ? "visible" : "hidden"};
+  transition: all 0.5s;
+  z-index: -10;
+  background-color: rgb(53 53 63 / 95%);
+  border-radius: 20px;
+  margin: 0.5rem;
+  a {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    cursor: pointer;
+  }
+`;
+_c7 = MobileMenu;
+
+const Header = () => {
+  _s();
+
+  const [click, setClick] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false);
+  const ref = Object(react__WEBPACK_IMPORTED_MODULE_2__["useRef"])(null);
+  gsap__WEBPACK_IMPORTED_MODULE_0__["gsap"].registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_1__["ScrollTrigger"]);
+
+  const scrollUp = (id, e) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+      inline: "nearest"
+    });
+  };
+
+  const handleClick = (id, e) => {
+    setClick(!click);
+    scrollUp(id, e);
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(() => {
+    const element = ref.current;
+    const mq = window.matchMedia("(max-width: 40em)");
+
+    if (mq.matches) {
+      gsap__WEBPACK_IMPORTED_MODULE_0__["gsap"].to(element, {
+        position: "fixed",
+        top: "0",
+        left: "0",
+        right: "0",
+        padding: "1rem 2.5rem",
+        borderRadius: "0 0 50px 50px",
+        border: "2px solid var(--white)",
+        duration: 1,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: element,
+          start: "bottom+=200 top",
+          end: "+=100",
+          scrub: true
+        }
+      });
+    } else {
+      gsap__WEBPACK_IMPORTED_MODULE_0__["gsap"].to(element, {
+        position: "fixed",
+        top: "1rem",
+        left: "3rem",
+        right: "3rem",
+        padding: "1.5rem 2rem",
+        borderRadius: "50px",
+        border: "3px solid var(--white)",
+        duration: 1,
+        ease: "power1.out",
+        scrollTrigger: {
+          trigger: element,
+          start: "bottom+=300 top",
+          end: "+=250",
+          scrub: true
+        }
+      });
+    }
+  }, []);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Headers, {
+    ref: ref,
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Logo, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("img", {
+        src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/logo.png",
+        alt: "MedCare"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 254,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h3", {
+        children: "MedCare"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 258,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 253,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Nav, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#home",
+        onClick: e => scrollUp("home", e),
+        children: "Home"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 261,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#about",
+        onClick: e => scrollUp("about", e),
+        children: "About Us"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 264,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#services",
+        onClick: e => scrollUp("services", e),
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("select", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "Services"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 269,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "Appointment"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 270,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "Reports"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 271,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "Ambulance"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 272,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "MedCart"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 273,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "Virtual Assistant"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 274,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+            children: "Notification"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 275,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 268,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 267,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#contact",
+        onClick: e => scrollUp("contact", e),
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Button, {
+          children: "Contact Us"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 279,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 278,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/doctor",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Buttonsign, {
+          children: "Sign Up"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 282,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 281,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 260,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(HamburgerBtn, {
+      clicked: click,
+      onClick: () => setClick(!click),
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("span", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 286,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 285,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(MobileMenu, {
+      clicked: click,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#home",
+        onClick: e => handleClick("home", e),
+        children: "Home"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 289,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#about",
+        onClick: e => handleClick("about", e),
+        children: "About Us"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 292,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#services",
+        onClick: e => handleClick("services", e),
+        children: "Services"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 295,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+        href: "#contact",
+        onClick: e => handleClick("contact", e),
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Button, {
+          children: "Contact Us"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 299,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 298,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/doctor",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Buttonsign, {
+          children: "Sign Up"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 302,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 301,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 288,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 252,
+    columnNumber: 5
+  }, undefined);
+};
+
+_s(Header, "oSlCcDeSegl8H/KwfPYxgPtrJ1s=");
+
+_c8 = Header;
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+var _c, _c2, _c3, _c4, _c5, _c6, _c7, _c8;
+
+__webpack_require__.$Refresh$.register(_c, "Headers");
+__webpack_require__.$Refresh$.register(_c2, "Logo");
+__webpack_require__.$Refresh$.register(_c3, "Nav");
+__webpack_require__.$Refresh$.register(_c4, "Button");
+__webpack_require__.$Refresh$.register(_c5, "Buttonsign");
+__webpack_require__.$Refresh$.register(_c6, "HamburgerBtn");
+__webpack_require__.$Refresh$.register(_c7, "MobileMenu");
+__webpack_require__.$Refresh$.register(_c8, "Header");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+}]);
+//# sourceMappingURL=5.chunk.js.map

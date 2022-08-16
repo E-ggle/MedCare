@@ -1,0 +1,2474 @@
+(this["webpackJsonpmedcare"] = this["webpackJsonpmedcare"] || []).push([[1],{
+
+/***/ "./src/Pages/Home.js":
+/*!***************************!*\
+  !*** ./src/Pages/Home.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var _Sections_Hero_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Sections/Hero/index */ "./src/Sections/Hero/index.js");
+/* harmony import */ var _Sections_About_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Sections/About/index */ "./src/Sections/About/index.js");
+/* harmony import */ var _Sections_Services_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Sections/Services/index */ "./src/Sections/Services/index.js");
+/* harmony import */ var _Sections_Testimonials_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Sections/Testimonials/index */ "./src/Sections/Testimonials/index.js");
+/* harmony import */ var _Sections_Contact_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Sections/Contact/index */ "./src/Sections/Contact/index.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\Pages\\Home.js";
+
+
+
+
+
+
+
+const Container = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+_c = Container;
+
+const Home = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Container, {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Sections_Hero_index__WEBPACK_IMPORTED_MODULE_0__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Sections_About_index__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Sections_Services_index__WEBPACK_IMPORTED_MODULE_2__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Sections_Testimonials_index__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Sections_Contact_index__WEBPACK_IMPORTED_MODULE_4__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c2 = Home;
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+var _c, _c2;
+
+__webpack_require__.$Refresh$.register(_c, "Container");
+__webpack_require__.$Refresh$.register(_c2, "Home");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Sections/About/index.js":
+/*!*************************************!*\
+  !*** ./src/Sections/About/index.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\Sections\\About\\index.js";
+
+
+const move = styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"]`
+0% { transform: translateY(-15px)         }
+    50% { transform: translateY(10px) translateX(10px)        }
+    100% { transform: translateY(-5px)         }
+`;
+const AboutSection = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section`
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+_c = AboutSection;
+const Hand = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+
+  @media only Screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+_c2 = Hand;
+const Main = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  margin: 0 15rem;
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @media only Screen and (max-width: 64em) {
+    margin: 0 calc(5rem + 5vw);
+    margin-top: 10rem;
+  }
+  @media only Screen and (max-width: 40em) {
+    align-items: center;
+    margin: 3rem calc(3rem + 3vw);
+  }
+`;
+_c3 = Main;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1`
+  font-size: 2rem;
+  display: inline-block;
+`;
+_c4 = Title;
+const CurvedLine = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: 7rem;
+  height: 2rem;
+  border: solid 5px var(--purple);
+  border-color: var(--purple) transparent transparent transparent;
+  border-radius: 150%/60px 70px 0 0;
+`;
+_c5 = CurvedLine;
+const Content = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only Screen and (max-width: 40em) {
+    flex-direction: column;
+  }
+`;
+_c6 = Content;
+const Rocket = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  padding-bottom: 5rem;
+  animation: ${move} 2.5s ease infinite;
+  @media only Screen and (max-width: 40em) {
+    width: 50vw;
+    padding-bottom: 0;
+  }
+`;
+_c7 = Rocket;
+const Human = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+
+  @media only Screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+_c8 = Human;
+const Text = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h4`
+  font-size: calc(0.5rem + 1vw);
+  line-height: 1.5;
+  color: var(--nav2);
+`;
+_c9 = Text;
+const Circle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span`
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+`;
+_c10 = Circle;
+const AboutText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: 50%;
+  position: relative;
+  @media only Screen and (max-width: 40em) {
+    width: 100%;
+  }
+`;
+_c11 = AboutText;
+
+const About = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(AboutSection, {
+    id: "about",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Hand, {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+        src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/hand.svg",
+        alt: ""
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 115,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 114,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Main, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Title, {
+          children: "About Us"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(CurvedLine, {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 121,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Content, {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Rocket, {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+            src: "https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/11/what-is-cloud-based-healthcare.jpg",
+            alt: "",
+            width: "400",
+            height: "400"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 127,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(AboutText, {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Human, {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+              src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/rocket%20image.png",
+              alt: "",
+              width: "400",
+              height: "400"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 136,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 135,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Text, {
+            children: "We help our patients book appointments, buy medicines, generate live reports and Assist them, patients, via a virtual assistant.Every patient will be allocated a unique id so they can generate their data from the smart devices."
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 144,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Circle, {
+              style: {
+                backgroundColor: "var(--purple)"
+              }
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 151,
+              columnNumber: 15
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Circle, {
+              style: {
+                backgroundColor: "var(--pink)"
+              }
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 152,
+              columnNumber: 15
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Circle, {
+              style: {
+                backgroundColor: "var(--black)"
+              }
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 153,
+              columnNumber: 15
+            }, undefined)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 150,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 134,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 125,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 120,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 113,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c12 = About;
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+var _c, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12;
+
+__webpack_require__.$Refresh$.register(_c, "AboutSection");
+__webpack_require__.$Refresh$.register(_c2, "Hand");
+__webpack_require__.$Refresh$.register(_c3, "Main");
+__webpack_require__.$Refresh$.register(_c4, "Title");
+__webpack_require__.$Refresh$.register(_c5, "CurvedLine");
+__webpack_require__.$Refresh$.register(_c6, "Content");
+__webpack_require__.$Refresh$.register(_c7, "Rocket");
+__webpack_require__.$Refresh$.register(_c8, "Human");
+__webpack_require__.$Refresh$.register(_c9, "Text");
+__webpack_require__.$Refresh$.register(_c10, "Circle");
+__webpack_require__.$Refresh$.register(_c11, "AboutText");
+__webpack_require__.$Refresh$.register(_c12, "About");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Sections/Contact/index.js":
+/*!***************************************!*\
+  !*** ./src/Sections/Contact/index.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\Sections\\Contact\\index.js";
+
+
+const ContactSection = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section`
+  width: 100vw;
+  padding: calc(2.5rem + 2.5vw) 0;
+  background-color: #0a0b10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+_c = ContactSection;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1`
+  color: var(--white);
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  &::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0.5rem);
+    /* or 100px */
+    border-bottom: 2px solid var(--pink);
+  }
+`;
+_c2 = Title;
+const Icons = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  display: flex;
+  margin-bottom: 3rem;
+  a {
+    &:hover {
+      img {
+        filter: invert(20%) sepia(100%) saturate(500%) hue-rotate(580deg)
+          brightness(100%) contrast(97%);
+      }
+    }
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+`;
+_c3 = Icons;
+const Form = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].form`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  input {
+    padding: 1rem calc(0.5rem + 1vw);
+    margin-bottom: 1rem;
+    background-color: var(--nav2);
+    border: none;
+    border-radius: 4px;
+    color: #eff7f8;
+    &:active,
+    &:focus {
+      border: none;
+      outline: none;
+      background-color: var(--nav);
+    }
+    &::placeholder {
+      color: #eff7f8;
+      opacity: 0.6;
+    }
+    &[name="name"] {
+      margin-right: 2rem;
+    }
+  }
+  textarea {
+    padding: 1rem calc(0.5rem + 1vw);
+    margin-bottom: 1rem;
+    background-color: var(--nav2);
+    border: none;
+    border-radius: 4px;
+    color: #eff7f8;
+    margin-bottom: 2rem;
+    &:focus,
+    &:active {
+      background-color: var(--nav);
+    }
+    &::placeholder {
+      color: #eff7f8;
+      opacity: 0.6;
+    }
+  }
+  button {
+    padding: 0.8rem 2rem;
+    background-color: var(--white);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: #0a0b10;
+    cursor: pointer;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+`;
+_c4 = Form;
+const Row = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  @media only Screen and (max-width: 40em) {
+    display: flex;
+    flex-direction: column;
+    input {
+      &[name="name"] {
+        margin-right: 0;
+      }
+    }
+  }
+`;
+_c5 = Row;
+
+const Contact = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(ContactSection, {
+    id: "contact",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Title, {
+      children: "Get in touch"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 125,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Icons, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("a", {
+        href: "https://www.facebook.com/",
+        children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/facebook-square-brands.svg",
+          alt: "Facebook"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 127,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("a", {
+        href: "https://www.linkedin.com/",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/linkedin-brands.svg",
+          alt: "LinkedId"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 135,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 134,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("a", {
+        href: "https://twitter.com/",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/twitter-square-brands.svg",
+          alt: "Twitter"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 141,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 140,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("a", {
+        href: "https://www.instagram.com/",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/instagram-square-brands.svg",
+          alt: "Instagram"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 147,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 146,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 126,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Form, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Row, {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("input", {
+          name: "name",
+          type: "text",
+          placeholder: "Your name"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 155,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("input", {
+          name: "email",
+          type: "email",
+          placeholder: "Enter your Email id"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 156,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 154,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("textarea", {
+        name: "",
+        id: "",
+        cols: "30",
+        rows: "2",
+        placeholder: "Your message"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 158,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+        style: {
+          margin: "0 auto"
+        },
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("button", {
+          onClick: e => {
+            e.preventDefault();
+          },
+          children: "Submit"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 166,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 165,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 153,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 124,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c6 = Contact;
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+var _c, _c2, _c3, _c4, _c5, _c6;
+
+__webpack_require__.$Refresh$.register(_c, "ContactSection");
+__webpack_require__.$Refresh$.register(_c2, "Title");
+__webpack_require__.$Refresh$.register(_c3, "Icons");
+__webpack_require__.$Refresh$.register(_c4, "Form");
+__webpack_require__.$Refresh$.register(_c5, "Row");
+__webpack_require__.$Refresh$.register(_c6, "Contact");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Sections/Hero/index.js":
+/*!************************************!*\
+  !*** ./src/Sections/Hero/index.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\Sections\\Hero\\index.js";
+// This is HeroSection component, Main top section of website
+
+
+const move = styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"]`
+0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+`;
+const HomeSection = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section`
+  width: 100vw;
+  height: 45vw;
+  background-color: #db4242;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  @media only Screen and (max-width: 48em) {
+    height: 70vw;
+    display: block;
+  }
+  @media only Screen and (max-width: 420px) {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+`;
+_c = HomeSection;
+const Blobs = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: 100%;
+  position: absolute;
+  right: 0;
+  @media only Screen and (max-width: 48em) {
+    opacity: 0.5;
+  }
+`;
+_c2 = Blobs;
+const PinkBlob = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: calc(15% + 15vw);
+  position: absolute;
+  right: 0;
+  top: calc(5rem + 5vw);
+  z-index: 6;
+`;
+_c3 = PinkBlob;
+const PurpleBlob = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: calc(10% + 10vw);
+  position: absolute;
+  right: 0;
+`;
+_c4 = PurpleBlob;
+const WhiteBlob = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  width: calc(20% + 20vw);
+  position: absolute;
+  right: calc(3.5rem + 3.5vw);
+  top: calc(2rem + 2vw);
+  z-index: 5;
+`;
+_c5 = WhiteBlob;
+const MainContent = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  @media only Screen and (max-width: 48em) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+`;
+_c6 = MainContent;
+const MobileSvg = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].img`
+  max-width: 100%;
+  width: calc(30% + 20vw);
+  height: auto;
+  z-index: 7;
+  animation: ${move} 2.5s ease infinite;
+  @media only Screen and (max-width: 48em) {
+    align-self: flex-start;
+    position: absolute;
+    bottom: 0;
+    width: calc(30% + 20vw);
+    opacity: 0.5;
+  }
+  @media only Screen and (max-width: 40em) {
+    display: none;
+  }
+`;
+_c7 = MobileSvg;
+const Lb = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  line-height: 1.5;
+  color: var(--white);
+  position: relative;
+  z-index: 15;
+  @media only Screen and (max-width: 48em) {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: calc(2.5rem + 2.5vw);
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  @media only Screen and (max-width: 40em) {
+    filter: none;
+  }
+`;
+_c8 = Lb;
+const Topic = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--nav);
+  color: var(--white);
+  font-weight: 700;
+  font-size: calc(0.4rem + 0.4vw);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+`;
+_c9 = Topic;
+const Circle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span`
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #3ede5b;
+  margin-right: 0.5rem;
+`;
+_c10 = Circle;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1`
+  font-size: calc(2rem + 1vw);
+  line-height: 1.2;
+  padding: 0.5rem 0;
+`;
+_c11 = Title;
+const SubText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h5`
+  font-size: calc(0.5rem + 0.5vw);
+  color: var(--nav2);
+`;
+_c12 = SubText;
+const CTA = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button`
+  background-color: var(--white);
+  color: #0a0b10;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: calc(0.5rem + 0.5vw);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+
+  img {
+    width: 1.5rem;
+  }
+  @media only screen and (max-width: 48em) {
+    padding: 0.2rem 1rem;
+  }
+  &:hover {
+    transform: scale(1.1);
+    background-color: #bf31eb;
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+`;
+_c13 = CTA;
+
+const HeroSection = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(HomeSection, {
+    id: "home",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Blobs, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(PinkBlob, {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/blobPink.png",
+          alt: "",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 175,
+          columnNumber: 11
+        }, undefined), " "]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 174,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(WhiteBlob, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/blob%20white.png",
+          alt: "",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 183,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 182,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(PurpleBlob, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/blob%20purple.png",
+          alt: "",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 191,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 190,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 173,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(MainContent, {
+      id: "home",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Lb, {
+        id: "leftBlock",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Topic, {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Circle, {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 203,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("span", {
+            children: "We Care Everyone"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 204,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 202,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Title, {
+          children: "Transforming your Health lifestyle"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 206,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(SubText, {
+          children: "We help our patients to book appointment and keep their record remotely."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 207,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(CTA, {
+          children: ["Get Started \xA0", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+            src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/heart.svg",
+            alt: "cta",
+            width: "100",
+            height: "100"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 213,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 211,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 201,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(MobileSvg, {
+        src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/mobile.svg",
+        alt: "Mobile Svg",
+        width: "400",
+        height: "400"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 222,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 200,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 172,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c14 = HeroSection;
+/* harmony default export */ __webpack_exports__["default"] = (HeroSection);
+
+var _c, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14;
+
+__webpack_require__.$Refresh$.register(_c, "HomeSection");
+__webpack_require__.$Refresh$.register(_c2, "Blobs");
+__webpack_require__.$Refresh$.register(_c3, "PinkBlob");
+__webpack_require__.$Refresh$.register(_c4, "PurpleBlob");
+__webpack_require__.$Refresh$.register(_c5, "WhiteBlob");
+__webpack_require__.$Refresh$.register(_c6, "MainContent");
+__webpack_require__.$Refresh$.register(_c7, "MobileSvg");
+__webpack_require__.$Refresh$.register(_c8, "Lb");
+__webpack_require__.$Refresh$.register(_c9, "Topic");
+__webpack_require__.$Refresh$.register(_c10, "Circle");
+__webpack_require__.$Refresh$.register(_c11, "Title");
+__webpack_require__.$Refresh$.register(_c12, "SubText");
+__webpack_require__.$Refresh$.register(_c13, "CTA");
+__webpack_require__.$Refresh$.register(_c14, "HeroSection");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Sections/Services/index.js":
+/*!****************************************!*\
+  !*** ./src/Sections/Services/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
+/* harmony import */ var _components_TextBlock__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/TextBlock */ "./src/components/TextBlock/index.js");
+/* harmony import */ var _components_SvgBlock__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/SvgBlock */ "./src/components/SvgBlock/index.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\Sections\\Services\\index.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+
+
+
+
+
+const ServiceSection = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section`
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 20rem;
+`;
+_c = ServiceSection;
+const Background = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 85vh;
+  z-index: -1;
+  background-color: #cc47f5;
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+`;
+_c2 = Background;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1`
+  color: var(--white);
+  display: inline-block;
+  font-size: 2rem;
+  /* margin-top: 4rem; */
+  margin-top: 1rem;
+  position: relative;
+  &::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0.5rem);
+    /* or 100px */
+    border-bottom: 2px solid var(--pink);
+  }
+`;
+_c3 = Title;
+const Line = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].span`
+  border-left: 4px solid var(--background);
+  height: 15rem;
+  margin-top: 2rem;
+  border-radius: 20px 20px 0 0;
+`;
+_c4 = Line;
+const Triangle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].span`
+  width: 0;
+  height: 0;
+  border-left: 1.2rem solid transparent;
+  border-right: 1.2rem solid transparent;
+  border-top: 2rem solid var(--background);
+`;
+_c5 = Triangle;
+const Content = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 10rem;
+  position: relative;
+  @media only Screen and (max-width: 64em) {
+    margin: 10rem calc(4rem + 5vw);
+  }
+  @media only Screen and (max-width: 48em) {
+    display: block;
+    &:last-child {
+      margin-bottom: 2rem;
+    }
+  }
+  @media only Screen and (max-width: 40em) {
+    margin: 10rem calc(2rem + 3vw);
+    &:last-child {
+      margin-bottom: 1rem;
+    }
+  }
+`;
+_c6 = Content;
+const OBJ = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
+  position: absolute;
+  top: 80%;
+  right: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  @media only Screen and (max-width: 48em) {
+    opacity: 0.5;
+  }
+`;
+_c7 = OBJ;
+
+const Services = () => {
+  _s();
+
+  const ref = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])(null);
+  gsap__WEBPACK_IMPORTED_MODULE_0__["default"].registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_3__["ScrollTrigger"]);
+  const revealRefs = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])([]);
+  revealRefs.current = [];
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    const element = ref.current; ////
+
+    const mq = window.matchMedia("(max-width: 48em)");
+    const t1 = gsap__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
+      scrollTrigger: {
+        trigger: document.getElementById("services"),
+        start: "top top+=180",
+        end: "bottom bottom",
+        pin: element,
+        pinReparent: true
+      }
+    });
+    t1.fromTo(document.getElementById("line"), {
+      height: "15rem"
+    }, {
+      height: "3rem",
+      duration: 2,
+      scrollTrigger: {
+        trigger: document.getElementById("line"),
+        start: "top top+=200",
+        end: "bottom top+=220",
+        scrub: true
+      }
+    });
+    revealRefs.current.forEach((el, index) => {
+      if (mq.matches) {
+        t1.from(el.childNodes[0], {
+          x: -300,
+          opacity: 0,
+          duration: 2,
+          ease: "power2",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: "top center+=200",
+            end: "bottom bottom-=100",
+            scrub: true,
+            snap: true
+          }
+        }).to(el.childNodes[1], {
+          transform: "scale(0)",
+          ease: "power2.inOut",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el.childNodes[1],
+            start: "top center",
+            end: "bottom center",
+            scrub: true,
+            snap: true
+          }
+        }).from(el.childNodes[2], {
+          y: 400,
+          duration: 2,
+          ease: "power2",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: "top center+=100",
+            end: "bottom bottom-=200",
+            scrub: true,
+            snap: true
+          }
+        }).to(el, {
+          opacity: 0,
+          ease: "power2",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: "top top+=300",
+            end: "center top+=300",
+            scrub: true
+          }
+        });
+      } else {
+        t1.from(el.childNodes[0], {
+          x: -300,
+          opacity: 0,
+          duration: 2,
+          ease: "power2",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: "top center+=100",
+            end: "bottom bottom-=200",
+            scrub: true,
+            snap: true
+          }
+        }).to(el.childNodes[1], {
+          transform: "scale(0)",
+          ease: "power2.inOut",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el.childNodes[1],
+            start: "top center",
+            end: "bottom center",
+            scrub: true,
+            snap: true
+          }
+        }).from(el.childNodes[2], {
+          y: 400,
+          duration: 2,
+          ease: "power2",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: "top center+=100",
+            end: "bottom bottom-=200",
+            scrub: true,
+            snap: true
+          }
+        }).to(el, {
+          opacity: 0,
+          ease: "power2",
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: "top top+=200",
+            end: "center top+=300",
+            scrub: true
+          }
+        });
+      }
+    });
+  }, []);
+
+  const addToRefs = el => {
+    if (el && !revealRefs.current.includes(el)) {
+      revealRefs.current.push(el);
+    }
+  };
+
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(ServiceSection, {
+    id: "services",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Background, {
+      ref: ref,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Title, {
+        className: "title",
+        children: "What We Do"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 257,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Line, {
+        id: "line"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 258,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Triangle, {
+        id: "triangle"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 259,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 256,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Content, {
+      ref: addToRefs,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_TextBlock__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        topic: "Book Appointments",
+        title: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+          children: "Now Patients can Book Appointments virtually"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 265,
+          columnNumber: 18
+        }, undefined),
+        subText: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h5", {
+          children: "It can be offline, online, offline/online which helps the patients to connect to the doctor much efficiently."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 267,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 263,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(OBJ, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/3dcapsule.png",
+          alt: "Tube Object",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 274,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 273,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_SvgBlock__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        svg: "https://raw.githubusercontent.com/E-ggle/MedCare/8f30f74edb5cba2e8b80115372fcbe5895bd1848/src/assets/Support.svg"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 281,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 262,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Content, {
+      ref: addToRefs,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_TextBlock__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        topic: "View Reports",
+        title: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+          children: "Remote report generation"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 286,
+          columnNumber: 18
+        }, undefined),
+        subText: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h5", {
+          children: "Have your health reports remotely so that you can find treatment with your previous diagnosis from anywhere in the world."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 288,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 284,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(OBJ, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/healthcare.svg",
+          alt: "Cone Object",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 295,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 294,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_SvgBlock__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        svg: "https://raw.githubusercontent.com/E-ggle/MedCare/8f30f74edb5cba2e8b80115372fcbe5895bd1848/src/assets/report.svg"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 302,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 283,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Content, {
+      ref: addToRefs,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_TextBlock__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        topic: "Ambulance",
+        title: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+          children: "One Click to Service"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 307,
+          columnNumber: 18
+        }, undefined),
+        subText: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h5", {
+          children: "In Emergencies Doctor cannot do virtual treatment so we provide an option to connect to the Hospital via Ambulance."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 309,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 305,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(OBJ, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("img", {
+          src: "https://raw.githubusercontent.com/E-ggle/MedCare/5308103883844223de08e9a7c060b359e7b3dedf/src/assets/telephone.svg",
+          alt: "Cone Object",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 316,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 315,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_SvgBlock__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        svg: "https://raw.githubusercontent.com/E-ggle/MedCare/8f30f74edb5cba2e8b80115372fcbe5895bd1848/src/assets/ambulance.svg"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 323,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 304,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(Content, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_TextBlock__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        topic: "Virtual Assisstant",
+        title: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+          children: "Support for your digital presence"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 328,
+          columnNumber: 18
+        }, undefined),
+        subText: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h5", {
+          children: "Once your system is online, we will stay on hand to help you use it and provide technical support and maintenance your healthcare."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 330,
+          columnNumber: 13
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 326,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(OBJ, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("img", {
+          src: "https://www.svgrepo.com/show/285249/robot.svg",
+          alt: "Capsule Object",
+          width: "400",
+          height: "400"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 337,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 336,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_components_SvgBlock__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        svg: "https://raw.githubusercontent.com/E-ggle/MedCare/8f30f74edb5cba2e8b80115372fcbe5895bd1848/src/assets/Support.svg"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 344,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 325,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 255,
+    columnNumber: 5
+  }, undefined);
+};
+
+_s(Services, "6YzJD6T8Wvpzw+Z2eSI0QBE8eZw=");
+
+_c8 = Services;
+/* harmony default export */ __webpack_exports__["default"] = (Services);
+
+var _c, _c2, _c3, _c4, _c5, _c6, _c7, _c8;
+
+__webpack_require__.$Refresh$.register(_c, "ServiceSection");
+__webpack_require__.$Refresh$.register(_c2, "Background");
+__webpack_require__.$Refresh$.register(_c3, "Title");
+__webpack_require__.$Refresh$.register(_c4, "Line");
+__webpack_require__.$Refresh$.register(_c5, "Triangle");
+__webpack_require__.$Refresh$.register(_c6, "Content");
+__webpack_require__.$Refresh$.register(_c7, "OBJ");
+__webpack_require__.$Refresh$.register(_c8, "Services");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Sections/Testimonials/index.js":
+/*!********************************************!*\
+  !*** ./src/Sections/Testimonials/index.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
+/* harmony import */ var _node_modules_slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../node_modules/slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
+/* harmony import */ var _node_modules_slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\Sections\\Testimonials\\index.js";
+
+
+
+
+
+
+const Card = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(_c = () => __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../../components/Card/index */ "./src/components/Card/index.js")));
+_c2 = Card;
+const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 0;
+`;
+_c3 = Section;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1`
+  color: #0a0b10;
+  display: inline-block;
+  font-size: calc(1rem + 1.5vw);
+  margin-top: 1.5rem;
+  position: relative;
+  &::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0.5rem);
+    /* or 100px */
+    border-bottom: 2px solid var(--purple);
+  }
+`;
+_c4 = Title;
+const Carousal = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media only Screen and (max-width: 40em) {
+    width: 90vw;
+    .slick-slider .slick-arrow {
+      display: none;
+    }
+  }
+  .slick-slider .slick-arrow:before {
+    color: #0a0b10;
+    font-size: 1.5rem;
+    @media only Screen and (max-width: 40em) {
+      display: none;
+    }
+  }
+  .slick-slider .slick-dots button:before {
+    color: #0a0b10;
+    font-size: 1.5rem;
+  }
+  .slick-slide.slick-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+`;
+_c5 = Carousal;
+
+const Testimonials = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Section, {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Title, {
+      children: "Few good words about us!"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Carousal, {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, { ...settings,
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Card, {
+          text: "MedCare has been essential part of our business. I would definetly\r recommend MedCare. It has been amazing to have them.",
+          name: "Dr. Vikram",
+          image: "avatar-1"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Card, {
+          text: "MedCare has been essential part of our business. I would definetly recommend MedCare. It has been amazing to have them.",
+          name: "Dr. Tina",
+          image: "avatar-2"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Card, {
+          text: "MedCare has been essential part of our business. I would definetly recommend MedCare. It has been amazing to have them.",
+          name: "Dr. Rajesh",
+          image: "avatar-3"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Card, {
+          text: "MedCare has been essential part of our business. I would definetly recommend MedCare. It has been amazing to have them.",
+          name: "Dr. Sanjeev",
+          image: "avatar-4"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 85,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 82,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c6 = Testimonials;
+/* harmony default export */ __webpack_exports__["default"] = (Testimonials);
+
+var _c, _c2, _c3, _c4, _c5, _c6;
+
+__webpack_require__.$Refresh$.register(_c, "Card$lazy");
+__webpack_require__.$Refresh$.register(_c2, "Card");
+__webpack_require__.$Refresh$.register(_c3, "Section");
+__webpack_require__.$Refresh$.register(_c4, "Title");
+__webpack_require__.$Refresh$.register(_c5, "Carousal");
+__webpack_require__.$Refresh$.register(_c6, "Testimonials");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/SvgBlock/index.js":
+/*!******************************************!*\
+  !*** ./src/components/SvgBlock/index.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\components\\SvgBlock\\index.js";
+
+
+
+const Rb = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  position: relative;
+  svg {
+    width: 100%;
+    height: auto;
+  }
+  @media only Screen and (max-width: 48em) {
+    display: none;
+  }
+`;
+_c = Rb;
+
+const SvgBlock = ({
+  svg
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(Rb, {
+    id: "svgBlock",
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+      src: svg,
+      alt: "Services"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c2 = SvgBlock;
+/* harmony default export */ __webpack_exports__["default"] = (SvgBlock);
+
+var _c, _c2;
+
+__webpack_require__.$Refresh$.register(_c, "Rb");
+__webpack_require__.$Refresh$.register(_c2, "SvgBlock");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/TextBlock/index.js":
+/*!*******************************************!*\
+  !*** ./src/components/TextBlock/index.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\components\\TextBlock\\index.js";
+
+
+
+const Lb = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 50%;
+  line-height: 1.5;
+  color: var(--white);
+
+  position: relative;
+
+  @media only Screen and (max-width: 48em) {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  /* z-index: 1; */
+`;
+_c = Lb;
+const Topic = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--nav);
+  color: var(--white);
+  font-weight: 700;
+  font-size: calc(0.4rem + 0.4vw);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+
+  @media only Screen and (max-width: 48em) {
+    font-size: calc(0.4rem + 0.8vw);
+  }
+`;
+_c2 = Topic;
+const Circle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span`
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #3ede5b;
+  margin-right: 0.5rem;
+`;
+_c3 = Circle;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  font-size: calc(1rem + 1vw);
+  line-height: 1.2;
+  padding: 0.5rem 0;
+  @media only Screen and (max-width: 48em) {
+    font-size: calc(1rem + 1.5vw);
+  }
+`;
+_c4 = Title;
+const SubText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  font-size: calc(0.5rem + 0.5vw);
+  color: var(--nav2);
+  @media only Screen and (max-width: 48em) {
+    font-size: calc(0.5rem + 1vw);
+  }
+`;
+_c5 = SubText;
+
+const TextBlock = ({
+  topic,
+  title,
+  subText,
+  children
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(Lb, {
+    id: "leftBlock",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(Topic, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(Circle, {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("span", {
+        children: topic
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(Title, {
+      children: title
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(SubText, {
+      children: subText
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 7
+    }, undefined), children]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 66,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c6 = TextBlock;
+/* harmony default export */ __webpack_exports__["default"] = (TextBlock);
+
+var _c, _c2, _c3, _c4, _c5, _c6;
+
+__webpack_require__.$Refresh$.register(_c, "Lb");
+__webpack_require__.$Refresh$.register(_c2, "Topic");
+__webpack_require__.$Refresh$.register(_c3, "Circle");
+__webpack_require__.$Refresh$.register(_c4, "Title");
+__webpack_require__.$Refresh$.register(_c5, "SubText");
+__webpack_require__.$Refresh$.register(_c6, "TextBlock");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1.chunk.js.map
