@@ -13,10 +13,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/index.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 __webpack_require__.$Refresh$.setup(module.i);
 
@@ -28,8 +27,7 @@ var _jsxFileName = "C:\\Users\\mvair\\OneDrive\\Documents\\Medcare\\src\\compone
 
 
 
-
-const Headers = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].header`
+const Headers = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].header`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +44,7 @@ const Headers = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].header
   }
 `;
 _c = Headers;
-const Logo = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].a`
+const Logo = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].a`
   display: flex;
   align-items: center;
   width: 3rem;
@@ -57,7 +55,7 @@ const Logo = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].a`
   }
 `;
 _c2 = Logo;
-const Nav = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].nav`
+const Nav = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].nav`
   width: 30rem;
   max-width: 40rem;
   display: flex;
@@ -97,7 +95,7 @@ const Nav = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].nav`
   }
 `;
 _c3 = Nav;
-const Button = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
+const Button = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].button`
   background-color: #cc47f5;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -122,7 +120,7 @@ const Button = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
   }
 `;
 _c4 = Button;
-const Buttonsign = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
+const Buttonsign = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].button`
   background-color: #eb3131;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -147,7 +145,7 @@ const Buttonsign = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].but
   }
 `;
 _c5 = Buttonsign;
-const HamburgerBtn = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].button`
+const HamburgerBtn = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].button`
   display: none;
   @media only Screen and (max-width: 48em) {
     display: inline-block;
@@ -182,7 +180,7 @@ const HamburgerBtn = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].b
   }
 `;
 _c6 = HamburgerBtn;
-const MobileMenu = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].nav`
+const MobileMenu = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].nav`
   display: none;
   @media only Screen and (max-width: 48em) {
     display: flex;
@@ -277,213 +275,192 @@ const Header = () => {
       });
     }
   }, []);
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Headers, {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Headers, {
     ref: ref,
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Logo, {
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("img", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Logo, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("img", {
         src: "https://raw.githubusercontent.com/E-ggle/MedCare/master/src/assets/logo.png",
         alt: "MedCare"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 254,
+        lineNumber: 253,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-        to: "/",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h3", {
-          children: "MedCare"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 259,
-          columnNumber: 11
-        }, undefined)
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("h3", {
+        children: "MedCare"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 258,
+        lineNumber: 257,
         columnNumber: 9
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 252,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Nav, {
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Nav, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#home",
         onClick: e => scrollUp("home", e),
         children: "Home"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 263,
+        lineNumber: 260,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#about",
         onClick: e => scrollUp("about", e),
         children: "About Us"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 266,
+        lineNumber: 263,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#services",
         onClick: e => scrollUp("services", e),
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("select", {
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("select", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
             children: "Services"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 268,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+            children: "Appointment"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 269,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+            children: "Reports"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 270,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+            children: "Ambulance"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 271,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
-            children: "Appointment"
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+            children: "MedCart"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 272,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
-            children: "Reports"
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+            children: "Virtual Assistant"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 273,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
-            children: "Ambulance"
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("option", {
+            children: "Notification"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 274,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
-            children: "MedCart"
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 275,
-            columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
-            children: "Virtual Assistant"
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 276,
-            columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("option", {
-            children: "Notification"
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 277,
-            columnNumber: 13
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 270,
+          lineNumber: 267,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 269,
+        lineNumber: 266,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#contact",
         onClick: e => scrollUp("contact", e),
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Button, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Button, {
           children: "Contact Us"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 281,
+          lineNumber: 278,
           columnNumber: 11
         }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 277,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Buttonsign, {
+        children: "Sign Up"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 280,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-        to: "/doctor",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Buttonsign, {
-          children: "Sign Up"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 284,
-          columnNumber: 11
-        }, undefined)
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 283,
-        columnNumber: 9
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 259,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(HamburgerBtn, {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(HamburgerBtn, {
       clicked: click,
       onClick: () => setClick(!click),
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("span", {}, void 0, false, {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {}, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 288,
+        lineNumber: 283,
         columnNumber: 9
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 287,
+      lineNumber: 282,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(MobileMenu, {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(MobileMenu, {
       clicked: click,
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#home",
         onClick: e => handleClick("home", e),
         children: "Home"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 291,
+        lineNumber: 286,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#about",
         onClick: e => handleClick("about", e),
         children: "About Us"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 294,
+        lineNumber: 289,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#services",
         onClick: e => handleClick("services", e),
         children: "Services"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 297,
+        lineNumber: 292,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("a", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("a", {
         href: "#contact",
         onClick: e => handleClick("contact", e),
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Button, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Button, {
           children: "Contact Us"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 301,
+          lineNumber: 296,
           columnNumber: 11
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 300,
+        lineNumber: 295,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-        to: "/doctor",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(Buttonsign, {
-          children: "Sign Up"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 304,
-          columnNumber: 11
-        }, undefined)
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(Buttonsign, {
+        children: "Sign Up"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 303,
+        lineNumber: 299,
         columnNumber: 9
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 285,
       columnNumber: 7
     }, undefined)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 252,
+    lineNumber: 251,
     columnNumber: 5
   }, undefined);
 };
